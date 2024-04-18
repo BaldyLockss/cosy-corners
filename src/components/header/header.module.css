@@ -1,0 +1,78 @@
+.container {
+    position: fixed;
+    width: calc(100% - 12vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+    margin: 2rem 6vw;
+    background-color: var(--clr-secondary);
+    border-bottom-right-radius: 1.5em;
+    color: var(--clr-font);
+    z-index: 1;
+}
+
+.container__logo {
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo svg {
+    height: 2.75rem;
+    width: auto;
+}
+
+.logo svg path {
+    fill: var(--clr-font);
+}
+
+.logo p {
+    padding-left: 0.5rem;
+}
+
+.container nav {
+    margin-right: 2rem;
+}
+
+.container nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.container nav ul li {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+.basket {
+    position: relative;
+}
+
+.basket svg {
+    height: 2rem;
+    width: auto;
+}
+
+.basket svg path {
+    fill: var(--clr-font);
+}
+
+.number {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    aspect-ratio: 1;
+    position: absolute;
+    bottom: -0.5em;
+    right: -1em;
+    background: var(--clr-primary);
+    border-radius: 50%;
+    z-index: 1;
+    border: 0.25rem solid var(--clr-secondary);
+}
