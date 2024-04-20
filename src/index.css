@@ -13,6 +13,10 @@
   --header-font-secondary: "Kite One", sans-serif;
 }
 
+.App {
+  height: 100dvh;
+}
+
 main {
   height: 100svh;
   overflow: hidden;
