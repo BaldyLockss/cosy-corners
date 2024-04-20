@@ -1,0 +1,49 @@
+.container {
+    background: var(--clr-background);
+    padding: var(--padding-container);
+}
+
+.content__text {
+    background-color: var(--clr-primary);
+    height: 85%;
+    width: 40%;
+    border-bottom-right-radius: var(--corner-radius);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+    transform: translateX(25%);
+}
+
+.text h2 {
+    font-family: var(--header-font);
+    font-size: var(--fs-header);
+    font-weight: 300;
+    padding: 1rem 0;
+    line-height: 0.9em;
+    transform: translateY(-10%);
+
+}
+
+.text span {
+    font-family: var(--header-font-secondary);
+    font-size: var(--fs-subheader);
+    padding: 0.5em;
+}
+
+.title__upper {
+    vertical-align: top;
+
+}
+
+.title__upper span,
+.title__lower span {
+    font-family: var(--header-font-secondary);
+    font-size: 2rem;
+    padding: 0.5em;
+}
