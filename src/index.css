@@ -20,6 +20,10 @@
 
 }
 
+.App {
+  height: 100dvh;
+}
+
 main {
   height: 100svh;
   overflow: hidden;
